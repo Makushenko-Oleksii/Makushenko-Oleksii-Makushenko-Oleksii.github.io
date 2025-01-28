@@ -1,0 +1,153 @@
+.classes__title {
+    font-size: 36px;
+    line-height: 41px;
+    margin: 95px 0 ;
+}
+
+.classes img {
+    margin: 0 auto;
+
+}
+
+.classes__content {
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+    justify-content: space-around;
+}
+
+.classes__item_title {
+    font-size: 30px;
+    line-height: 1px;
+    text-align: center;
+    margin: 24px 0 ;
+}
+
+.classes__item_image:hover {
+    background-color: #FFFFFF99;
+    opacity: 0.6;
+    transition: all 0.40s;
+}
+
+.banner-classes {
+    margin-bottom: 140px;
+}
+
+.audio-player-title {
+    margin-bottom: 20px;
+}
+
+
+
+/* Контейнер плеера */
+ 
+.audio {
+    margin-top: 50px;
+}
+
+.audio-player {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #2D8EAC; /* Цвет заднего фона */
+    padding: 10px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 50px;
+}
+
+/* Кнопка воспроизведения/паузы */
+.play-pause-btn,
+.volume-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+
+/* Стили для бегунка шкалы прогресса */
+.progress-bar::-webkit-slider-thumb {
+    appearance: none;
+    width: 10px;
+    height: 10px;
+    background: #ffffff;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid #4682b4;
+}
+
+
+
+.progress-bar {
+    flex: 1; /* Заполняет оставшееся пространство */
+    height: 6px;
+    appearance: none;
+    background: #ccc;
+    border-radius: 3px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.progress-bar::-webkit-slider-thumb {
+    appearance: none;
+    width: 12px;
+    height: 12px;
+    background: #007bff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.volume-container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    position: relative;
+}
+
+.volume-control {
+    width: 100px;
+    appearance: none;
+    height: 6px;
+    background: #ccc;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.volume-control::-webkit-slider-thumb {
+    appearance: none;
+    width: 12px;
+    height: 12px;
+    background: #007bff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.volume-btn {
+    display: flex;
+    align-items: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.volume-percentage {
+    width: 30px;
+    font-size: 13px;
+    color: #fff;
+}
+
+
+.current-time,
+.remaining-time {
+    width: 30px;
+    font-size: 14px;
+    color: #fff;
+    margin: 0 10px;
+}
+
+.audio-player-text {
+    margin-bottom: 20px;
+}

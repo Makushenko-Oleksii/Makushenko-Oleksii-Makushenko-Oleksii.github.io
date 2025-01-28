@@ -1,0 +1,33 @@
+.video__title {
+    font-size: 36px;
+    line-height: 41px;
+    margin: 95px 0 ;
+}
+
+.video__content {
+    margin-bottom: 232px;
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+
+.video__content__item {
+    width: 688px;
+    height: 414px;
+    background-color: #114169;
+}
+
+.video__content__image {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+}
+
+.video__content__title {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 64px;
+    color: #fff;
+}
